@@ -21,6 +21,7 @@ import java.io.IOException;
 public class Filter1 implements Filter {
     @Override
     public void init(final FilterConfig filterConfig) throws ServletException {
+    	System.out.println("Filter1 init......");
     }
 
     @Override
@@ -32,5 +33,6 @@ public class Filter1 implements Filter {
 
     @Override
     public void destroy() {
+    	System.out.println("Filter1 destroy......");
     }
 }
